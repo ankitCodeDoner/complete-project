@@ -1,0 +1,188 @@
+{
+  "profile": {
+    "business": "City Care Hospital",
+    "contact": "Dr. Ananya Sharma",
+    "role": "Procurement Lead",
+    "email": "procurement@citycare.example",
+    "phone": "+91 98100 11223",
+    "gst": "07AABCU9603R1ZM",
+    "verified": true,
+    "creditTerms": "30-day credit",
+    "memberSince": "March 2024"
+  },
+  "addresses": [
+    {
+      "id": "addr-delhi",
+      "label": "Main store",
+      "contact": "Dr. Ananya Sharma",
+      "line": "City Care Hospital, 14 Ring Road",
+      "city": "New Delhi",
+      "state": "Delhi",
+      "pin": "110017",
+      "phone": "+91 98100 11223",
+      "isDefault": true
+    },
+    {
+      "id": "addr-bengaluru",
+      "label": "OT store",
+      "contact": "Store In-charge",
+      "line": "City Care Hospital, Whitefield Main Road",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "pin": "560066",
+      "phone": "+91 98100 44556",
+      "isDefault": false
+    }
+  ],
+  "orders": [
+    {
+      "id": "MV-24140",
+      "placedOn": "2026-09-28",
+      "status": "Processing",
+      "payment": "30-day credit",
+      "addressId": "addr-delhi",
+      "items": [
+        {
+          "slug": "contec-cms8000-patient-monitor",
+          "name": "Contec CMS8000 Multi-Parameter Patient Monitor",
+          "image": "https://images.unsplash.com/photo-1579154204601-01588f351e67?w=600&q=85",
+          "packSize": "1 Unit",
+          "qty": 1,
+          "price": 42000
+        },
+        {
+          "slug": "3m-littmann-classic-iii-stethoscope",
+          "name": "3M Littmann Classic III Stethoscope",
+          "image": "https://images.unsplash.com/photo-1516069677018-378515003435?w=600&q=85",
+          "packSize": "1 Unit",
+          "qty": 4,
+          "price": 8500
+        }
+      ],
+      "timeline": [
+        { "label": "Order placed", "at": "28 Sep 2026, 10:15" },
+        { "label": "Confirmed", "at": "28 Sep 2026, 11:02" },
+        { "label": "Packed", "at": "Pending" }
+      ]
+    },
+    {
+      "id": "MV-24118",
+      "placedOn": "2026-09-22",
+      "status": "Shipped",
+      "payment": "Prepaid",
+      "addressId": "addr-bengaluru",
+      "items": [
+        {
+          "slug": "gdp-stellar-dental-trolley",
+          "name": "GDP Stellar Dental Trolley",
+          "image": "https://images.unsplash.com/photo-1583911860205-72f8ac8ddcbe?w=600&q=85",
+          "packSize": "1 Unit",
+          "qty": 1,
+          "price": 9000
+        },
+        {
+          "slug": "woodpecker-iled-plus-light-cure-unit",
+          "name": "Woodpecker iLED Plus Light Cure Unit",
+          "image": "https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=600&q=85",
+          "packSize": "1 Unit",
+          "qty": 3,
+          "price": 5086
+        }
+      ],
+      "timeline": [
+        { "label": "Order placed", "at": "22 Sep 2026, 09:40" },
+        { "label": "Confirmed", "at": "22 Sep 2026, 10:05" },
+        { "label": "Shipped", "at": "23 Sep 2026, 16:20" },
+        { "label": "Delivered", "at": "Pending" }
+      ]
+    },
+    {
+      "id": "MV-24091",
+      "placedOn": "2026-08-14",
+      "status": "Delivered",
+      "payment": "30-day credit",
+      "addressId": "addr-delhi",
+      "items": [
+        {
+          "slug": "unicorn-denmark-xpect-vision-rvg-sensor",
+          "name": "Unicorn Denmark Xpect Vision RVG Sensor",
+          "image": "https://images.unsplash.com/photo-1584982751601-97dcc096659c?w=600&q=85",
+          "packSize": "1 Unit",
+          "qty": 1,
+          "price": 50476
+        },
+        {
+          "slug": "woodpecker-uds-j-ultrasonic-scaler",
+          "name": "Woodpecker UDS-J Non Optic Ultrasonic Scaler",
+          "image": "https://images.unsplash.com/photo-1609840114035-3c981b782dfe?w=600&q=85",
+          "packSize": "1 Unit",
+          "qty": 2,
+          "price": 6934
+        }
+      ],
+      "timeline": [
+        { "label": "Order placed", "at": "14 Aug 2026, 14:10" },
+        { "label": "Confirmed", "at": "14 Aug 2026, 15:00" },
+        { "label": "Shipped", "at": "15 Aug 2026, 11:30" },
+        { "label": "Delivered", "at": "18 Aug 2026, 13:45" }
+      ]
+    },
+    {
+      "id": "MV-23980",
+      "placedOn": "2026-07-03",
+      "status": "Delivered",
+      "payment": "Prepaid",
+      "addressId": "addr-delhi",
+      "items": [
+        {
+          "slug": "healthium-truglyde-absorbable-sutures",
+          "name": "Healthium Truglyde Absorbable Sutures (Box of 12)",
+          "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=85",
+          "packSize": "Box of 12",
+          "qty": 10,
+          "price": 1980
+        }
+      ],
+      "timeline": [
+        { "label": "Order placed", "at": "3 Jul 2026, 08:55" },
+        { "label": "Confirmed", "at": "3 Jul 2026, 09:20" },
+        { "label": "Shipped", "at": "3 Jul 2026, 18:10" },
+        { "label": "Delivered", "at": "6 Jul 2026, 12:05" }
+      ]
+    }
+  ],
+  "notifications": [
+    {
+      "id": "n1",
+      "title": "Order MV-24118 has shipped",
+      "body": "The dental trolley and light-cure units are in transit to the Bengaluru OT store.",
+      "time": "2 hours ago",
+      "href": "/orders/MV-24118",
+      "read": false
+    },
+    {
+      "id": "n2",
+      "title": "Credit terms are active",
+      "body": "30-day credit is available on qualifying orders for City Care Hospital.",
+      "time": "Yesterday",
+      "href": "/profile",
+      "read": false
+    },
+    {
+      "id": "n3",
+      "title": "Order MV-24091 was delivered",
+      "body": "The RVG sensor and ultrasonic scaler were delivered to the main store.",
+      "time": "18 Aug 2026",
+      "href": "/orders/MV-24091",
+      "read": true
+    },
+    {
+      "id": "n4",
+      "title": "Invoice ready for MV-23980",
+      "body": "The GST invoice for your suture order is available from Help & Support.",
+      "time": "6 Jul 2026",
+      "href": "/support",
+      "read": true
+    }
+  ]
+}

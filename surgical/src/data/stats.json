@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "label": "Product SKUs",
+    "value": 250000,
+    "suffix": "+",
+    "icon": "Package"
+  },
+  {
+    "id": 2,
+    "label": "Manufacturers & Suppliers",
+    "value": 4500,
+    "suffix": "+",
+    "icon": "Building2"
+  },
+  {
+    "id": 3,
+    "label": "Medical Establishments Served",
+    "value": 90000,
+    "suffix": "+",
+    "icon": "HeartPulse"
+  },
+  {
+    "id": 4,
+    "label": "Practitioners Onboard",
+    "value": 120000,
+    "suffix": "+",
+    "icon": "Users"
+  }
+]

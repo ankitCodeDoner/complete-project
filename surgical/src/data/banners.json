@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/images/banner1.png",
+    "alt": "Medical equipment promotional offer",
+    "category": "Medical Equipment"
+  },
+  {
+    "id": 2,
+    "image": "/assets/images/banner2.png",
+    "alt": "Surgical instruments promotional offer",
+    "category": "Surgical Instruments"
+  },
+  {
+    "id": 3,
+    "image": "/assets/images/banner3.png",
+    "alt": "Dental instruments promotional offer",
+    "category": "Dental Instruments"
+  },
+  {
+    "id": 4,
+    "image": "/assets/images/banner4.png",
+    "alt": "Orthopedic instruments promotional offer",
+    "category": "Orthopedic Instruments"
+  }
+]

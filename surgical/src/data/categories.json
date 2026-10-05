@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Surgical Instruments",
+    "slug": "surgical-instruments",
+    "icon": "Stethoscope",
+    "iconColor": "text-blue-700",
+    "bgColor": "bg-blue-50",
+    "href": "/categories/surgical-instruments",
+    "blurb": "Precision forceps, scissors, retractors and OT-ready instrument sets from certified manufacturers."
+  },
+  {
+    "id": 2,
+    "name": "Dental",
+    "slug": "dental",
+    "icon": "Activity",
+    "iconColor": "text-cyan-700",
+    "bgColor": "bg-cyan-50",
+    "href": "/categories/dental",
+    "blurb": "Scalers, RVG sensors, light-cure units, chairs and dental consumables for modern clinics."
+  },
+  {
+    "id": 3,
+    "name": "Orthopedics",
+    "slug": "orthopedics",
+    "icon": "Bone",
+    "iconColor": "text-indigo-700",
+    "bgColor": "bg-indigo-50",
+    "href": "/categories/orthopedics",
+    "blurb": "Implants, plates, drills and orthopedic power tools built to exacting standards."
+  },
+  {
+    "id": 4,
+    "name": "Diagnostics",
+    "slug": "diagnostics",
+    "icon": "Microscope",
+    "iconColor": "text-purple-700",
+    "bgColor": "bg-purple-50",
+    "href": "/categories/diagnostics",
+    "blurb": "Monitors, analysers, ECG and imaging accessories for accurate, fast diagnosis."
+  },
+  {
+    "id": 5,
+    "name": "Cardiology",
+    "slug": "cardiology",
+    "icon": "HeartPulse",
+    "iconColor": "text-rose-700",
+    "bgColor": "bg-rose-50",
+    "href": "/categories/cardiology",
+    "blurb": "Stethoscopes, ECG systems and cardiac monitoring essentials for every practice."
+  },
+  {
+    "id": 6,
+    "name": "Ophthalmology",
+    "slug": "ophthalmology",
+    "icon": "Eye",
+    "iconColor": "text-sky-700",
+    "bgColor": "bg-sky-50",
+    "href": "/categories/ophthalmology",
+    "blurb": "Diagnostic lenses, slit lamps and ophthalmic instruments trusted by eye specialists."
+  },
+  {
+    "id": 7,
+    "name": "Physiotherapy",
+    "slug": "physiotherapy",
+    "icon": "Activity",
+    "iconColor": "text-emerald-700",
+    "bgColor": "bg-emerald-50",
+    "href": "/categories/physiotherapy",
+    "blurb": "Therapy, rehab and mobility equipment for clinics and recovery centres."
+  },
+  {
+    "id": 8,
+    "name": "Consumables",
+    "slug": "consumables",
+    "icon": "ShieldCheck",
+    "iconColor": "text-teal-700",
+    "bgColor": "bg-teal-50",
+    "href": "/categories/consumables",
+    "blurb": "Gloves, syringes, dressings and everyday disposables in institutional pack sizes."
+  },
+  {
+    "id": 9,
+    "name": "Pharma",
+    "slug": "pharma",
+    "icon": "Pill",
+    "iconColor": "text-violet-700",
+    "bgColor": "bg-violet-50",
+    "href": "/categories/pharma",
+    "blurb": "Pharmaceuticals and formulations sourced from licensed, verified suppliers."
+  },
+  {
+    "id": 10,
+    "name": "Vaccines",
+    "slug": "vaccines",
+    "icon": "Syringe",
+    "iconColor": "text-orange-700",
+    "bgColor": "bg-orange-50",
+    "href": "/categories/vaccines",
+    "blurb": "Cold-chain-ready vaccines and immunisation supplies with compliant handling."
+  },
+  {
+    "id": 11,
+    "name": "Nephrology",
+    "slug": "nephrology",
+    "icon": "Brain",
+    "iconColor": "text-amber-700",
+    "bgColor": "bg-amber-50",
+    "href": "/categories/nephrology",
+    "blurb": "Dialysis consumables and nephrology equipment for renal care units."
+  },
+  {
+    "id": 12,
+    "name": "IVF / Gynae",
+    "slug": "ivf-gynae",
+    "icon": "Baby",
+    "iconColor": "text-pink-700",
+    "bgColor": "bg-pink-50",
+    "href": "/categories/ivf-gynae",
+    "blurb": "Fertility, gynaecology and neonatal supplies for specialist departments."
+  }
+]

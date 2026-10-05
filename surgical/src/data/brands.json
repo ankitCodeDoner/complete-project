@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "IndoSurgicals Private Limited",
+    "slug": "indosurgicals",
+    "logo": "/assets/images/Brand1.webp",
+    "productCount": "160+ Products",
+    "href": "/brands/indosurgicals",
+    "description": "A leading Indian manufacturer of surgical and hospital instruments, IndoSurgicals supplies precision-engineered products trusted by hospitals across the country.",
+    "origin": "India",
+    "established": "1998",
+    "specialities": ["Surgical Instruments", "Hospital Furniture", "Consumables"]
+  },
+  {
+    "id": 2,
+    "name": "Contec",
+    "slug": "contec",
+    "logo": "/assets/images/Brand2.avif",
+    "productCount": "20+ Products",
+    "href": "/brands/contec",
+    "description": "Contec Medical Systems is a global manufacturer of patient monitors, ECG machines and diagnostic devices used in clinics and hospitals worldwide.",
+    "origin": "China",
+    "established": "1996",
+    "specialities": ["Diagnostics", "Patient Monitoring", "Cardiology"]
+  },
+  {
+    "id": 3,
+    "name": "3M Littmann",
+    "slug": "3m-littmann",
+    "logo": "/assets/images/Brand3.png",
+    "productCount": "60+ Products",
+    "href": "/brands/3m-littmann",
+    "description": "The Littmann brand by 3M sets the standard for acoustic stethoscopes, prized by practitioners for clarity, durability and precision.",
+    "origin": "USA",
+    "established": "1967",
+    "specialities": ["Cardiology", "Diagnostics"]
+  },
+  {
+    "id": 4,
+    "name": "Volk",
+    "slug": "volk",
+    "logo": "/assets/images/Brand4.png",
+    "productCount": "60+ Products",
+    "href": "/brands/volk",
+    "description": "Volk Optical is a world leader in ophthalmic diagnostic and surgical lenses, delivering superior optics for eye-care specialists.",
+    "origin": "USA",
+    "established": "1976",
+    "specialities": ["Ophthalmology", "Diagnostics"]
+  },
+  {
+    "id": 5,
+    "name": "Orikam",
+    "slug": "orikam",
+    "logo": "/assets/images/Brand5.png",
+    "productCount": "40+ Products",
+    "href": "/brands/orikam",
+    "description": "Orikam Healthcare distributes premium dental equipment and consumables, partnering with global brands to serve Indian dental clinics.",
+    "origin": "India",
+    "established": "2008",
+    "specialities": ["Dental", "Consumables"]
+  },
+  {
+    "id": 6,
+    "name": "Healthium",
+    "slug": "healthium",
+    "logo": "/assets/images/Brand6.jpg",
+    "productCount": "90+ Products",
+    "href": "/brands/healthium",
+    "description": "Healthium Medtech is a leading Indian medical devices company known for surgical sutures, wound care and minimally invasive products.",
+    "origin": "India",
+    "established": "1992",
+    "specialities": ["Surgical Instruments", "Consumables", "Orthopedics"]
+  },
+  {
+    "id": 7,
+    "name": "GC",
+    "slug": "gc",
+    "logo": "/assets/images/Brand1.webp",
+    "productCount": "10+ Products",
+    "href": "/brands/gc",
+    "description": "GC Corporation is a globally recognised manufacturer of dental restorative materials and consumables used by clinics everywhere.",
+    "origin": "Japan",
+    "established": "1921",
+    "specialities": ["Dental", "Consumables"]
+  },
+  {
+    "id": 8,
+    "name": "Smith & Nephew",
+    "slug": "smith-nephew",
+    "logo": "/assets/images/Brand2.avif",
+    "productCount": "10+ Products",
+    "href": "/brands/smith-nephew",
+    "description": "Smith & Nephew is a global medical technology company specialising in orthopedics, advanced wound management and sports medicine.",
+    "origin": "UK",
+    "established": "1856",
+    "specialities": ["Orthopedics", "Consumables", "Surgical Instruments"]
+  }
+]

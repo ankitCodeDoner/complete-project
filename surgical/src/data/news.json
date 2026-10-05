@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "title": "MedVance partners with 500+ new manufacturers across South India",
+    "slug": "medvance-supplier-network-expansion",
+    "excerpt": "Our supplier network expansion brings faster fulfilment and deeper category coverage for hospitals in Tier-2 and Tier-3 cities.",
+    "date": "2026-09-02",
+    "tag": "Partnership",
+    "author": "MedVance Newsroom",
+    "readTime": "3 min read",
+    "image": "https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=1200&q=85",
+    "href": "/blog/medvance-supplier-network-expansion",
+    "content": [
+      "MedVance has onboarded more than 500 new manufacturers and authorised suppliers across South India, significantly deepening product availability for hospitals and clinics in Tier-2 and Tier-3 cities.",
+      "The expansion means shorter delivery times, more competitive pricing, and access to specialist SKUs that were previously hard to source outside major metros. Buyers can now compare more brands side by side and consolidate procurement through a single verified marketplace.",
+      "\"Our mission has always been to make quality medical supplies accessible everywhere, not just in the big cities,\" said a MedVance spokesperson. \"This network growth is a major step toward that goal.\"",
+      "Verified institutional buyers will see the expanded catalogue reflected automatically, with new fulfilment centres reducing average dispatch time across the region."
+    ]
+  },
+  {
+    "id": 2,
+    "title": "New institutional credit terms now live for verified buyers",
+    "slug": "institutional-credit-terms",
+    "excerpt": "Registered hospitals and clinics can now unlock 30-day credit on qualifying orders after business verification.",
+    "date": "2026-08-19",
+    "tag": "Product Update",
+    "author": "Product Team",
+    "readTime": "2 min read",
+    "image": "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?w=1200&q=85",
+    "href": "/blog/institutional-credit-terms",
+    "content": [
+      "Cash flow is one of the biggest challenges in healthcare procurement. To help, MedVance now offers 30-day credit terms to verified hospitals, clinics and diagnostic centres on qualifying orders.",
+      "Once a business completes verification — sharing GST details and basic institutional documents — eligible buyers can place orders on credit and settle within the agreed window, all tracked transparently in their account dashboard.",
+      "The programme is rolling out in phases, starting with registered institutional accounts. Buyers can check their eligibility from the account settings page after verification is complete."
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Guide: How procurement teams cut surgical supply costs by 22%",
+    "slug": "reduce-surgical-supply-costs",
+    "excerpt": "A practical playbook on consolidating vendors, leveraging bulk tiers, and standardising SKUs across departments.",
+    "date": "2026-08-05",
+    "tag": "Insights",
+    "author": "MedVance Insights",
+    "readTime": "5 min read",
+    "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=1200&q=85",
+    "href": "/blog/reduce-surgical-supply-costs",
+    "content": [
+      "Surgical supplies are a major line item for any hospital, yet many procurement teams leave savings on the table by spreading orders across dozens of vendors. Consolidation is the single biggest lever available.",
+      "First, standardise SKUs. When multiple departments order slightly different versions of the same consumable, you lose bulk-tier pricing and add complexity. Agreeing on a core catalogue unlocks volume discounts immediately.",
+      "Second, use tiered bulk pricing deliberately. Plan quarterly requirements and batch orders to cross the next discount threshold rather than reordering ad hoc.",
+      "Third, negotiate credit terms to smooth cash flow, and track spend by category to spot outliers. Teams that combine these three moves routinely report savings north of 20% within two quarters."
+    ]
+  },
+  {
+    "id": 4,
+    "title": "MedVance achieves ISO 13485:2016 certification for quality management",
+    "slug": "iso-13485-certification",
+    "excerpt": "Our quality management system is now independently certified, reinforcing our commitment to safe, compliant medical supply.",
+    "date": "2026-07-21",
+    "tag": "Press",
+    "author": "MedVance Newsroom",
+    "readTime": "2 min read",
+    "image": "https://images.unsplash.com/photo-1550831107-1553da8c8464?w=1200&q=85",
+    "href": "/blog/iso-13485-certification",
+    "content": [
+      "MedVance has been awarded ISO 13485:2016 certification, the international standard for quality management systems specific to medical devices.",
+      "The certification covers our sourcing, storage and distribution processes, providing independent assurance that products moving through our marketplace are handled to rigorous, auditable standards.",
+      "For institutional buyers, this means added confidence that every SKU is sourced from authorised manufacturers and managed within a certified quality framework."
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Cold-chain ready: how we handle vaccine and biologics logistics",
+    "slug": "cold-chain-vaccine-logistics",
+    "excerpt": "A look inside the temperature-controlled logistics that keep sensitive vaccines and biologics safe in transit.",
+    "date": "2026-07-04",
+    "tag": "Insights",
+    "author": "Operations Team",
+    "readTime": "4 min read",
+    "image": "https://images.unsplash.com/photo-1584467735815-f778f274e296?w=1200&q=85",
+    "href": "/blog/cold-chain-vaccine-logistics",
+    "content": [
+      "Vaccines and biologics are only as good as the cold chain that delivers them. A break of even a few degrees can render a shipment unusable, so temperature integrity is non-negotiable.",
+      "MedVance uses validated cold-chain packaging, temperature loggers and monitored routing for sensitive shipments. Each consignment is tracked end to end, with excursions flagged in real time.",
+      "This lets clinics and immunisation programmes order with confidence, knowing that compliant handling and documentation accompany every temperature-sensitive delivery."
+    ]
+  }
+]

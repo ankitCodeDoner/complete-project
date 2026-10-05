@@ -1,0 +1,68 @@
+{
+  "milestones": [
+    {
+      "year": "2016",
+      "title": "Founded in New Delhi",
+      "text": "MedVance began with a simple goal — make quality medical supplies accessible to every healthcare provider in India."
+    },
+    {
+      "year": "2019",
+      "title": "10,000 establishments served",
+      "text": "Crossed our first major milestone, serving hospitals, clinics and labs across 12 states."
+    },
+    {
+      "year": "2022",
+      "title": "Pan-India logistics network",
+      "text": "Launched regional fulfilment centres, cutting average delivery times dramatically nationwide."
+    },
+    {
+      "year": "2024",
+      "title": "Export operations begin",
+      "text": "Extended our marketplace to the GCC, MEA and CIS regions with export-ready fulfilment."
+    },
+    {
+      "year": "2026",
+      "title": "250,000+ SKUs live",
+      "text": "Became one of India's most comprehensive B2B medical marketplaces with 4,500+ suppliers."
+    }
+  ],
+  "values": [
+    {
+      "icon": "Target",
+      "title": "Access for all",
+      "text": "Quality medical supplies should reach every provider, from metro hospitals to rural clinics."
+    },
+    {
+      "icon": "ShieldCheck",
+      "title": "Uncompromising quality",
+      "text": "Every SKU is sourced from authorised manufacturers within a certified quality framework."
+    },
+    {
+      "icon": "Users",
+      "title": "Partnership first",
+      "text": "We win when our buyers and suppliers do — long-term relationships over one-off deals."
+    },
+    {
+      "icon": "Zap",
+      "title": "Speed with reliability",
+      "text": "Fast fulfilment that healthcare teams can depend on when it matters most."
+    }
+  ],
+  "leadership": [
+    {
+      "name": "Dr. Ananya Rao",
+      "role": "Founder & CEO",
+      "bio": "A physician-turned-entrepreneur focused on fixing healthcare supply chains from the ground up."
+    },
+    {
+      "name": "Vikram Mehta",
+      "role": "Chief Operating Officer",
+      "bio": "Two decades in medical distribution and logistics across India and the GCC."
+    },
+    {
+      "name": "Priya Nair",
+      "role": "Head of Supplier Partnerships",
+      "bio": "Builds and nurtures our network of 4,500+ manufacturers and authorised suppliers."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+// Maps the serializable `IconName` strings stored in JSON to their
+// Lucide React components. Data records stay JSON-safe; components
+// resolve the actual icon at render time via `iconMap[name]`.
+
+import {
+  Activity,
+  Award,
+  Baby,
+  Bone,
+  Brain,
+  Building2,
+  CheckCircle2,
+  Clock,
+  Eye,
+  Globe,
+  HeartPulse,
+  Headset,
+  Microscope,
+  Package,
+  Pill,
+  RefreshCw,
+  ShieldCheck,
+  Stethoscope,
+  Syringe,
+  Target,
+  Truck,
+  Users,
+  Wallet,
+  Zap,
+  type LucideIcon,
+} from "lucide-react";
+
+import type { IconName } from "./types";
+
+export const iconMap: Record<IconName, LucideIcon> = {
+  Activity,
+  Award,
+  Baby,
+  Bone,
+  Brain,
+  Building2,
+  CheckCircle2,
+  Clock,
+  Eye,
+  Globe,
+  HeartPulse,
+  Headset,
+  Microscope,
+  Package,
+  Pill,
+  RefreshCw,
+  ShieldCheck,
+  Stethoscope,
+  Syringe,
+  Target,
+  Truck,
+  Users,
+  Wallet,
+  Zap,
+};

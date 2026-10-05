@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Wholesale & Bulk Pricing",
+    "description": "Institutional rate cards with tiered discounts that scale as your order volume grows — no hidden markups.",
+    "icon": "Wallet"
+  },
+  {
+    "id": 2,
+    "title": "Fast, Tracked Delivery",
+    "description": "Pan-India logistics network with express dispatch and real-time tracking for time-critical medical supplies.",
+    "icon": "Truck"
+  },
+  {
+    "id": 3,
+    "title": "Secure B2B Transactions",
+    "description": "GST-compliant invoicing, credit terms for verified buyers, and encrypted, protected payments end to end.",
+    "icon": "ShieldCheck"
+  },
+  {
+    "id": 4,
+    "title": "Dedicated Procurement Support",
+    "description": "A specialist account desk to help source hard-to-find SKUs, compare brands, and manage repeat orders.",
+    "icon": "Headset"
+  },
+  {
+    "id": 5,
+    "title": "Genuine & Certified Products",
+    "description": "Every SKU is sourced from authorised manufacturers and meets ISO 13485 quality standards.",
+    "icon": "Award"
+  },
+  {
+    "id": 6,
+    "title": "One Marketplace, Every Speciality",
+    "description": "From surgical and dental to diagnostics, consumables and pharma — consolidate procurement in one place.",
+    "icon": "Zap"
+  }
+]

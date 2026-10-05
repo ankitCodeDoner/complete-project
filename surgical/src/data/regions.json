@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "India",
+    "code": "IN",
+    "description": "Nationwide delivery to hospitals, clinics and labs across all 28 states with express metro dispatch.",
+    "markets": "28 States · 700+ Districts"
+  },
+  {
+    "id": 2,
+    "name": "GCC",
+    "code": "GCC",
+    "description": "Export-ready fulfilment to Gulf healthcare institutions with compliant documentation and freight support.",
+    "markets": "UAE · Saudi Arabia · Qatar · Oman"
+  },
+  {
+    "id": 3,
+    "name": "MEA",
+    "code": "MEA",
+    "description": "Reliable supply partnerships across the Middle East & Africa for high-volume medical procurement.",
+    "markets": "Egypt · Kenya · Nigeria · South Africa"
+  },
+  {
+    "id": 4,
+    "name": "CIS",
+    "code": "CIS",
+    "description": "Cross-border sourcing for Commonwealth of Independent States markets with end-to-end logistics.",
+    "markets": "Kazakhstan · Uzbekistan · Azerbaijan"
+  }
+]

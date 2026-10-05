@@ -1,0 +1,48 @@
+{
+  "offices": [
+    {
+      "city": "New Delhi (Head Office)",
+      "address": "227, Okhla Industrial Estate Phase III, New Delhi, 110020, India",
+      "phone": "+91 98765 43210",
+      "email": "delhi@medvance.example"
+    },
+    {
+      "city": "Mumbai",
+      "address": "14, Andheri MIDC, Marol, Mumbai, Maharashtra 400093, India",
+      "phone": "+91 98765 11223",
+      "email": "mumbai@medvance.example"
+    },
+    {
+      "city": "Bengaluru",
+      "address": "88, Whitefield Main Road, Bengaluru, Karnataka 560066, India",
+      "phone": "+91 98765 44556",
+      "email": "bengaluru@medvance.example"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "Who can buy on MedVance?",
+      "answer": "MedVance is a B2B marketplace for hospitals, clinics, diagnostic labs, pharmacies and registered healthcare businesses. Institutional buyers can unlock wholesale pricing and credit terms after business verification."
+    },
+    {
+      "question": "How does bulk and wholesale pricing work?",
+      "answer": "Many products carry tiered pricing that improves as your order quantity grows. Bulk and institutional rates are shown on the product page, and larger requirements can be quoted by our procurement desk."
+    },
+    {
+      "question": "What are your delivery timelines?",
+      "answer": "Most in-stock orders dispatch within 24–48 hours, with express delivery available in major metros. Delivery estimates are shown at checkout based on your location."
+    },
+    {
+      "question": "Do you offer credit terms?",
+      "answer": "Yes. Verified institutional buyers can access 30-day credit on qualifying orders. Eligibility is confirmed after business verification."
+    },
+    {
+      "question": "Are the products genuine and certified?",
+      "answer": "Every SKU is sourced from authorised manufacturers and managed within our ISO 13485:2016 certified quality framework."
+    },
+    {
+      "question": "Do you export outside India?",
+      "answer": "Yes, we support export-ready fulfilment to the GCC, MEA and CIS regions with compliant documentation and freight support. Contact our export desk for details."
+    }
+  ]
+}
