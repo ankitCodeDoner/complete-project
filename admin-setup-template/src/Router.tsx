@@ -14,7 +14,6 @@ import { Box, Typography } from "@mui/material";
 import BlockIcon from "@mui/icons-material/Block";
 import { UISubmitButton } from "./components/ui/buttons/CustomButton";
 import { StaticRoutes } from "./utils/permission/StaticRoutes";
-import { extractClaimList } from "./utils/permission/permissionUtils";
 import { useUserRole } from "./hooks/useUserRole";
 import { useEffect, type ReactElement } from "react";
 
@@ -22,6 +21,19 @@ const claimsList = [
   "Dashboard",
   "Settings",
   "Menus",
+  "Products",
+  "Categories",
+  "Brands",
+  "Banners",
+  "BlogPosts",
+  "HomeStats",
+  "HomeFeatures",
+  "ExportRegions",
+  "AboutPage",
+  "ContactPage",
+  "Orders",
+  "CustomerProfile",
+  "CustomerNotifications",
 ];
 
 const AuthGuard = () => {
@@ -31,13 +43,14 @@ const AuthGuard = () => {
 };
 
 const AppRouter = () => {
-  const { roleData, refetch, isLoading, decoded } = useUserRole();
+  const { refetch, isLoading, decoded } = useUserRole();
   const queryEnabled = !!decoded?.Id;
   useEffect(() => {
     if (queryEnabled) {
       refetch();
     }
   }, [queryEnabled, refetch]);
+  // Role-based claims (needs `roleData` from useUserRole and extractClaimList from permissionUtils):
   // const userClaims = extractClaimList(roleData?.[0]?.roleMenus || []) || claimsList;
   const userClaims =  claimsList;
 

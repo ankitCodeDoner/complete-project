@@ -2,19 +2,19 @@ import { useCallback } from "react";
 import { showDeleteConfirm } from "../utils/alerts/confirmDelete";
 import toast from "react-hot-toast";
 
-interface UseDeleteConfirmProps {
+interface UseDeleteConfirmProps<Id extends number | string> {
   label: string;
-  deleteFn: (id: number) => Promise<any>;
+  deleteFn: (id: Id) => Promise<any>;
   refetch?: () => void;
 }
 
-export const useDeleteConfirm = ({
+export const useDeleteConfirm = <Id extends number | string = number>({
   label,
   deleteFn,
   refetch,
-}: UseDeleteConfirmProps) => {
+}: UseDeleteConfirmProps<Id>) => {
   const handleDelete = useCallback(
-    async (id: number) => {
+    async (id: Id) => {
       const confirm = await showDeleteConfirm(
         `Delete ${label}?`,
         `This will permanently remove the ${label}.`

@@ -7,28 +7,28 @@ const userTypeApi = createApi({
   baseQuery: baseQuery,
   endpoints: (builder) => ({
     getUserType: builder.query<any, void>({
-      query: () => ApiEndPoints.COURSE_LEVEL.GET_ALL,
+      query: () => ApiEndPoints.USER_TYPE.GET_ALL,
     }),
     getUserTypeById: builder.query<any, number | undefined>({
-      query: (id) => ApiEndPoints.COURSE_LEVEL.GET_BY_ID(id),
+      query: (id) => ApiEndPoints.USER_TYPE.GET_BY_ID(id),
     }),
     createUserType: builder.mutation<any, any>({
       query: (formData) => ({
-        url: ApiEndPoints.COURSE_LEVEL.CREATE,
+        url: ApiEndPoints.USER_TYPE.CREATE,
         method: "POST",
         body: formData,
       }),
     }),
     updateUserType: builder.mutation<any, { id: number; values: any }>({
       query: ({ id, values }) => ({
-        url: ApiEndPoints.COURSE_LEVEL.UPDATE(id),
+        url: ApiEndPoints.USER_TYPE.UPDATE(id),
         method: "PUT",
         body: values,
       }),
     }),
     deleteUserType: builder.mutation<any, number>({
       query: (id) => ({
-        url: ApiEndPoints.COURSE_LEVEL.DELETE(id),
+        url: ApiEndPoints.USER_TYPE.DELETE(id),
         method: "DELETE",
       }),
     }),

@@ -1,6 +1,12 @@
-import { fetchBaseQuery } from "@reduxjs/toolkit/query";
+import {
+  fetchBaseQuery,
+  type BaseQueryFn,
+  type FetchArgs,
+  type FetchBaseQueryError,
+} from "@reduxjs/toolkit/query";
+import { AppEndPoints } from "../../utils/rout-endpoints/AppEndPoints";
 
-export const baseQuery = fetchBaseQuery({
+const rawBaseQuery = fetchBaseQuery({
   baseUrl: import.meta.env.VITE_BASE_URL,
   prepareHeaders: (headers) => {
     const token = localStorage.getItem("authToken");
@@ -10,3 +16,17 @@ export const baseQuery = fetchBaseQuery({
     return headers;
   },
 });
+
+// An expired or invalid session sends the user back to the login page.
+export const baseQuery: BaseQueryFn<string | FetchArgs, unknown, FetchBaseQueryError> = async (
+  args,
+  api,
+  extraOptions
+) => {
+  const result = await rawBaseQuery(args, api, extraOptions);
+  if (result.error?.status === 401 && localStorage.getItem("authToken")) {
+    localStorage.removeItem("authToken");
+    window.location.assign(AppEndPoints.LOGIN);
+  }
+  return result;
+};

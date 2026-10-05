@@ -28,22 +28,25 @@ export default function Sidebar({ sidebarOpen = true }: SidebarProps) {
   const [openItems, setOpenItems] = useState<Record<string, boolean>>({});
   const location = useLocation();
   const navigate = useNavigate();
-  const handleToggle = (label: string) => {
+  const handleToggle = (label: string, isOpen: boolean) => {
     setOpenItems((prev) => ({
       ...prev,
-      [label]: !prev[label],
+      [label]: !isOpen,
     }));
   };
 
   const renderSidebarItem = (item: SidebarItem) => {
     const hasChildren = !!item.children?.length;
-    const isOpen = openItems[item.label] || false;
+    // Groups start expanded when they contain the current page.
+    const isOpen =
+      openItems[item.label] ??
+      !!item.children?.some((child) => child.link === location.pathname);
     const active = location.pathname === item.link;
     return (
       <React.Fragment key={item.label}>
         <StyledListItemButton
           onClick={() =>
-            hasChildren ? handleToggle(item.label) : navigate(item.link)
+            hasChildren ? handleToggle(item.label, isOpen) : navigate(item.link)
           }
           selected={active}
           sidebarOpen={sidebarOpen}
@@ -77,6 +80,8 @@ export default function Sidebar({ sidebarOpen = true }: SidebarProps) {
                 <StyledListItemButton
                   key={child.label}
                   sidebarOpen={sidebarOpen}
+                  selected={location.pathname === child.link}
+                  active={location.pathname === child.link}
                   sx={{
                     justifyContent: sidebarOpen ? "initial" : "center",
                     px: sidebarOpen ? 2 : 1,

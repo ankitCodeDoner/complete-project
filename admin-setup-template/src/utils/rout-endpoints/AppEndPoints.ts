@@ -84,4 +84,22 @@ export const AppEndPoints = {
   MENU_EDIT: "/menus/:id/edit",
 
   ASSIGN_MENU: "/menus/assign",
+
+  // MedVance catalogue
+  PRODUCT_LIST: "/products",
+  SITE_CATEGORY_LIST: "/categories",
+  BRAND_LIST: "/brands",
+
+  // MedVance website content (BANNERS is defined above)
+  BLOG_POSTS: "/blog-posts",
+  HOME_STATS: "/home-stats",
+  HOME_FEATURES: "/why-choose-us",
+  EXPORT_REGIONS: "/export-regions",
+  ABOUT_PAGE: "/about-page",
+  CONTACT_PAGE: "/contact-page",
+
+  // MedVance customers
+  ORDER_LIST: "/orders",
+  CUSTOMER_PROFILE: "/customer",
+  CUSTOMER_NOTIFICATIONS: "/customer-notifications",
 };

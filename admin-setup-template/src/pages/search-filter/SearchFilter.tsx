@@ -3,15 +3,9 @@ import React from "react";
 import { Form, Formik } from "formik";
 import { Box } from "@mui/material";
 import dayjs from "dayjs";
-import { useGetCourseLookupQuery } from "../../store/services/course/courseSlice";
 import { useGetUserLookupQuery } from "../../store/services/user-role/userRoleSlice";
-import { useGetStatusQuery } from "../../store/services/engagement-hub/engagementHubSlice";
-import { useGetLectureByCourseIdQuery } from "../../store/services/lecture/lectureSlice";
 import { TextInput } from "../../components/forms/BasicTextFields";
-import {
-  SearchableSelectDropdown,
-  SelectDropdown,
-} from "../../components/forms/SelectDropdown";
+import { SearchableSelectDropdown } from "../../components/forms/SelectDropdown";
 import InBetweenDateSearch from "../../components/forms/InBetweenDateSearch";
 import { Refresh } from "../../components/ui/buttons/AddEntityButton";
 import { UISubmitButton } from "../../components/ui/buttons/CustomButton";
@@ -46,18 +40,12 @@ const SearchFilter: React.FC<SearchFilterProps> = ({
   onRefresh,
   isSpinning,
 }) => {
-  const { data: courseLookup } = useGetCourseLookupQuery();
   const { data: userLookup } = useGetUserLookupQuery();
-  const { data: statusData } = useGetStatusQuery();
 
   return (
     <Box>
       <Formik initialValues={initialValues} onSubmit={onSubmit}>
         {({ setFieldValue, values }) => {
-          const { data: lectures } = useGetLectureByCourseIdQuery(
-            values?.courseId ? Number(values.courseId) : 0,
-            { skip: !values?.courseId }
-          );
           return (
             <Form>
               <Box className="flex gap-4 mt-6 mb-6">
@@ -84,19 +72,6 @@ const SearchFilter: React.FC<SearchFilterProps> = ({
                         <TextInput name="Email" label="Email" />
                       </Box>
                     )}
-                    {initialValues.status !== undefined && (
-                      <Box flex={1}>
-                        <SelectDropdown
-                          label="Status"
-                          value={values.status}
-                          onChange={(e) =>
-                            setFieldValue("status", e.target.value)
-                          }
-                          options={statusData?.data}
-                          name="status"
-                        />
-                      </Box>
-                    )}
 
                     {initialValues.userId !== undefined && (
                       <Box flex={1}>
@@ -108,32 +83,6 @@ const SearchFilter: React.FC<SearchFilterProps> = ({
                           }
                           options={userLookup?.data}
                           name="userId"
-                        />
-                      </Box>
-                    )}
-                    {initialValues.courseId !== undefined && (
-                      <Box flex={1}>
-                        <SearchableSelectDropdown
-                          label="Course"
-                          value={values.courseId}
-                          onChange={(e) =>
-                            setFieldValue("courseId", e.target.value)
-                          }
-                          options={courseLookup?.data}
-                          name="courseId"
-                        />
-                      </Box>
-                    )}
-                    {initialValues.lectureId !== undefined && (
-                      <Box flex={1}>
-                        <SearchableSelectDropdown
-                          label="Lecture"
-                          value={values.lectureId}
-                          onChange={(e) =>
-                            setFieldValue("lectureId", e.target.value)
-                          }
-                          options={lectures?.data}
-                          name="lectureId"
                         />
                       </Box>
                     )}

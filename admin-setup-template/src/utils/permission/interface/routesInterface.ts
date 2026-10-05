@@ -1,13 +1,32 @@
 import type { ReactElement } from "react";
 
 export type ClaimType =
-  | "Dashboard"  
-  
+  | "Dashboard"
+
   // Settings
   | "Settings"
 
   // Menus
-  | "Menus";
+  | "Menus"
+
+  // Catalogue
+  | "Products"
+  | "Categories"
+  | "Brands"
+
+  // Website content
+  | "Banners"
+  | "BlogPosts"
+  | "HomeStats"
+  | "HomeFeatures"
+  | "ExportRegions"
+  | "AboutPage"
+  | "ContactPage"
+
+  // Customers
+  | "Orders"
+  | "CustomerProfile"
+  | "CustomerNotifications";
 
 export interface StaticRouteType {
   path: string;
